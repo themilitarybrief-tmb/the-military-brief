@@ -38,24 +38,24 @@
   display: contents;
 }
 
-.home-container1 {
+.healthcare-tricare-container1 {
   width: 100%;
   display: block;
   min-height: 100vh;
 }
  
-.home-container2 {
+.healthcare-tricare-container2 {
   display: none;
 }
  
-.home-container3 {
+.healthcare-tricare-container3 {
   display: contents;
 }
  
-.home-container4 {
+.healthcare-tricare-container4 {
   display: none;
 }
  
-.home-container5 {
+.healthcare-tricare-container5 {
   display: contents;
 }

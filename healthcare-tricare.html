@@ -1,8 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Dizzy Female Sardine</title>
-    <meta property="og:title" content="Dizzy Female Sardine" />
+    <title>Healthcare-TRICARE - Dizzy Female Sardine</title>
+    <meta
+      property="og:title"
+      content="Healthcare-TRICARE - Dizzy Female Sardine"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta charset="utf-8" />
     <meta property="twitter:card" content="summary_large_image" />
@@ -66,9 +69,9 @@
   <body>
     <link rel="stylesheet" href="./style.css" />
     <div>
-      <link href="./index.css" rel="stylesheet" />
+      <link href="./healthcare-tricare.css" rel="stylesheet" />
 
-      <div class="home-container1">
+      <div class="healthcare-tricare-container1">
         <navigation-wrapper class="navigation-wrapper">
           <!--Navigation component-->
           <div class="navigation-container1">
@@ -317,166 +320,109 @@
             </div>
           </div>
         </navigation-wrapper>
-        <section class="hero-section">
-          <div class="hero-media-container">
-            <video
-              src="https://videos.pexels.com/video-files/7980526/7980526-hd_1080_1920_24fps.mp4"
-              loop="true"
-              muted="true"
-              poster="https://images.pexels.com/videos/7980526/pictures/preview-0.jpeg"
-              autoplay="true"
-              playsinline="true"
-              class="hero-video"
-            ></video>
-            <div class="hero-overlay"></div>
+        <section class="hero-healthcare">
+          <div class="hero-healthcare__bg">
+            <img
+              alt="Professional healthcare team"
+              src="https://images.pexels.com/photos/6129507/pexels-photo-6129507.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
+              class="hero-healthcare__image"
+            />
+            <div class="hero-healthcare__overlay"></div>
           </div>
-          <div class="hero-content-wrapper">
-            <div class="hero-card">
-              <span class="hero-tag">Latest Briefing</span>
-              <h1 class="home-hero-title hero-title">
-                2025 Basic Allowance for Housing (BAH) Rates Released
+          <div class="hero-healthcare__container">
+            <div class="hero-healthcare__content">
+              <span class="hero-healthcare__tag">MILITARY BRIEFING</span>
+              <h1 class="hero-title">
+                Healthcare &amp; TRICARE: Clarity for Your Care
               </h1>
-              <p class="home-hero-subtitle hero-subtitle">
-                Comprehensive breakdown of the 4.5% average increase across 300
-                military housing areas and what it means for your next PCS move.
+              <p class="hero-subtitle">
+                Understanding your military healthcare benefits shouldn't be a
+                battle. We provide plain-language guides to TRICARE options,
+                eligibility, and costs for service members, veterans, and
+                families.
               </p>
-              <div class="hero-actions">
-                <a href="#">
+              <div class="hero-healthcare__actions">
+                <a href="#plans">
                   <div class="btn-lg btn-primary btn">
-                    <span>Read Full Briefing</span>
+                    <span>Compare Plans</span>
                   </div>
                 </a>
-                <a href="#">
+                <a href="#enrollment">
                   <div class="btn-lg btn-outline btn">
-                    <span>Policy Archive</span>
+                    <span>How to Enroll</span>
                   </div>
                 </a>
-              </div>
-              <div class="hero-quick-links">
-                <span class="section-content">Quick Access:</span>
-                <div class="hero-links-grid">
-                  <a href="#pay">
-                    <div class="hero-link-item">
-                      <span>Pay &amp; Allowances</span>
-                    </div>
-                  </a>
-                  <a href="#health">
-                    <div class="hero-link-item">
-                      <span>TRICARE Updates</span>
-                    </div>
-                  </a>
-                  <a href="#housing">
-                    <div class="hero-link-item">
-                      <span>PCS &amp; Housing</span>
-                    </div>
-                  </a>
-                </div>
               </div>
             </div>
           </div>
         </section>
-        <section class="resources-section">
-          <div class="resources-container">
-            <div class="resources-header">
-              <h2 class="section-title">Policy Resource Centers</h2>
+        <section id="plans" class="plans-comparison">
+          <div class="plans-comparison__container">
+            <div class="plans-comparison__header">
+              <h2 class="section-title">TRICARE Plan Comparison</h2>
               <p class="section-content">
-                Navigate directly to non-partisan explainers for your specific
-                service situation.
+                Find the plan that fits your status and your family's needs.
+                Coverage varies based on your location and duty status.
               </p>
             </div>
-            <div class="resources-grid">
-              <div class="resource-card">
-                <div class="resource-icon-box">
-                  <svg
-                    fill="none"
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                    height="24"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  >
-                    <path
-                      d="M12 7v6m-8 6.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20M9 10h6"
-                    ></path>
-                  </svg>
-                </div>
-                <h3 class="section-subtitle">Pay &amp; Allowances</h3>
+            <div class="plans-comparison__table-wrapper">
+              <table class="plans-comparison__table">
+                <thead>
+                  <tr>
+                    <th><span>Plan Name</span></th>
+                    <th><span>Primary Audience</span></th>
+                    <th><span>Key Features</span></th>
+                    <th><span>Enrollment Fee</span></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td><strong>TRICARE Prime</strong></td>
+                    <td><span>Active Duty &amp; Families</span></td>
+                    <td><span>HMO-style, managed care with a PCM</span></td>
+                    <td><span>$0 for Active Duty</span></td>
+                  </tr>
+                  <tr>
+                    <td><strong>TRICARE Select</strong></td>
+                    <td><span>Active Duty Families &amp; Retirees</span></td>
+                    <td><span>PPO-style, flexible provider choice</span></td>
+                    <td><span>Varies by Group</span></td>
+                  </tr>
+                  <tr>
+                    <td><strong>Reserve Select (TRS)</strong></td>
+                    <td><span>Selected Reserve &amp; Families</span></td>
+                    <td><span>Premium-based health plan</span></td>
+                    <td><span>Monthly Premiums</span></td>
+                  </tr>
+                  <tr>
+                    <td><strong>TRICARE For Life</strong></td>
+                    <td><span>Medicare-Eligible Retirees</span></td>
+                    <td><span>Secondary payer to Medicare</span></td>
+                    <td><span>$0 (Must have Part B)</span></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+        <section id="enrollment" class="enrollment-process">
+          <div class="enrollment-process__container">
+            <div class="enrollment-process__grid">
+              <div class="enrollment-process__info">
+                <h2 class="section-title">Navigating Enrollment &amp; Costs</h2>
                 <p class="section-content">
-                  Basic pay scales, COLA adjustments, and special duty incentive
-                  pay briefings.
+                  Follow these critical steps to secure your coverage and manage
+                  your out-of-pocket expenses effectively.
                 </p>
-                <a href="#">
-                  <div class="btn-link"><span>Explore Pay Guides</span></div>
-                </a>
-              </div>
-              <div class="resource-card">
-                <div class="resource-icon-box">
+                <div class="enrollment-process__visual">
                   <svg
                     fill="none"
-                    width="24"
+                    width="48"
                     xmlns="http://www.w3.org/2000/svg"
-                    height="24"
-                    stroke="currentColor"
+                    height="48"
+                    stroke="var(--color-primary)"
                     viewBox="0 0 24 24"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  >
-                    <path
-                      d="M7 21s9.286-9.841 9.286-13.841a3.86 3.86 0 0 0-1.182-3.008A4.13 4.13 0 0 0 12 3.007A4.13 4.13 0 0 0 8.896 4.15a3.86 3.86 0 0 0-1.182 3.01C7.714 11.16 17 21 17 21"
-                    ></path>
-                  </svg>
-                </div>
-                <h3 class="section-subtitle">Healthcare &amp; TRICARE</h3>
-                <p class="section-content">
-                  Coverage changes, enrollment periods, and mental health
-                  resource availability.
-                </p>
-                <a href="#">
-                  <div class="btn-link"><span>View Health Policy</span></div>
-                </a>
-              </div>
-              <div class="resource-card">
-                <div class="resource-icon-box">
-                  <svg
-                    fill="none"
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                    height="24"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  >
-                    <path d="M15 21v-8a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v8"></path>
-                    <path
-                      d="M3 10a2 2 0 0 1 .709-1.528l7-6a2 2 0 0 1 2.582 0l7 6A2 2 0 0 1 21 10v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"
-                    ></path>
-                  </svg>
-                </div>
-                <h3 class="section-subtitle">PCS &amp; Housing</h3>
-                <p class="section-content">
-                  Moving allowances, TLE extensions, and Privatized Military
-                  Housing rights.
-                </p>
-                <a href="#">
-                  <div class="btn-link"><span>Housing Briefings</span></div>
-                </a>
-              </div>
-              <div class="resource-card">
-                <div class="resource-icon-box">
-                  <svg
-                    fill="none"
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                    height="24"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                    stroke-width="2"
+                    stroke-width="1.5"
                     stroke-linecap="round"
                     stroke-linejoin="round"
                   >
@@ -485,604 +431,513 @@
                     ></path>
                   </svg>
                 </div>
-                <h3 class="section-subtitle">VA &amp; Retirement</h3>
-                <p class="section-content">
-                  PACT Act eligibility, GI Bill updates, and blended retirement
-                  system analysis.
-                </p>
-                <a href="#">
-                  <div class="btn-link"><span>Benefits Guide</span></div>
-                </a>
               </div>
-              <div class="resource-card">
-                <div class="resource-icon-box">
-                  <svg
-                    fill="none"
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                    height="24"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  >
-                    <path
-                      d="m11 19l-1.106-.552a2 2 0 0 0-1.788 0l-3.659 1.83A1 1 0 0 1 3 19.381V6.618a1 1 0 0 1 .553-.894l4.553-2.277a2 2 0 0 1 1.788 0l4.212 2.106a2 2 0 0 0 1.788 0l3.659-1.83A1 1 0 0 1 21 4.619V12m-6-6.236V12m3 3v6m3-3h-6M9 3.236v15"
-                    ></path>
-                  </svg>
-                </div>
-                <h3 class="section-subtitle">Guard &amp; Reserve</h3>
-                <p class="section-content">
-                  Duty status reform, mobilization pay, and reserve-specific
-                  healthcare options.
-                </p>
-                <a href="#">
-                  <div class="btn-link"><span>Component Updates</span></div>
-                </a>
-              </div>
-              <div class="resource-card">
-                <div class="resource-icon-box">
-                  <svg
-                    fill="none"
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                    height="24"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                    stroke-width="2"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                  >
-                    <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
-                    <circle r="4" cx="9" cy="7"></circle>
-                    <path d="M19 8v6m3-3h-6"></path>
-                  </svg>
-                </div>
-                <h3 class="section-subtitle">Family Support</h3>
-                <p class="section-content">
-                  Spouse employment initiatives, child care fee assistance, and
-                  MWR benefits.
-                </p>
-                <a href="#">
-                  <div class="btn-link"><span>Family Resources</span></div>
-                </a>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section class="updates-section">
-          <div class="updates-header">
-            <div class="updates-header-content">
-              <h2 class="section-title">Recent Briefings</h2>
-              <p class="section-content">
-                Timely updates on legislative shifts and policy implementation.
-              </p>
-            </div>
-            <div class="updates-nav">
-              <button id="prevBriefing" class="btn-outline btn-sm btn">
-                Prev
-              </button>
-              <button id="nextBriefing" class="btn-outline btn-sm btn">
-                Next
-              </button>
-            </div>
-          </div>
-          <div id="briefingRail" class="updates-rail">
-            <article class="briefing-card">
-              <div class="briefing-meta">
-                <span class="briefing-date">Oct 24, 2024</span>
-                <span class="briefing-tag">Legislative</span>
-              </div>
-              <h3 class="section-subtitle">
-                NDAA 2025: Key Personnel Provisions
-              </h3>
-              <p class="section-content">
-                A breakdown of the proposed 19.5% pay raise for junior enlisted
-                members and its current status in the Senate.
-              </p>
-              <a href="#">
-                <div class="btn-link"><span>Read Briefing</span></div>
-              </a>
-            </article>
-            <article class="briefing-card">
-              <div class="briefing-meta">
-                <span class="briefing-date">Oct 22, 2024</span>
-                <span class="briefing-tag">Health</span>
-              </div>
-              <h3 class="section-subtitle">TRICARE Open Season Checklist</h3>
-              <p class="section-content">
-                Critical dates for the 2024 enrollment period and a comparison
-                of Select vs. Prime plan cost shifts.
-              </p>
-              <a href="#">
-                <div class="btn-link"><span>Read Briefing</span></div>
-              </a>
-            </article>
-            <article class="briefing-card">
-              <div class="briefing-meta">
-                <span class="briefing-date">Oct 20, 2024</span>
-                <span class="briefing-tag">Housing</span>
-              </div>
-              <h3 class="section-subtitle">
-                New Tenant Bill of Rights Updates
-              </h3>
-              <p class="section-content">
-                Enhanced dispute resolution processes for families in privatized
-                housing are now active at 10 major installations.
-              </p>
-              <a href="#">
-                <div class="btn-link"><span>Read Briefing</span></div>
-              </a>
-            </article>
-            <article class="briefing-card">
-              <div class="briefing-meta">
-                <span class="briefing-date">Oct 18, 2024</span>
-                <span class="briefing-tag">VA Benefits</span>
-              </div>
-              <h3 class="section-subtitle">PACT Act: Year Two Expansion</h3>
-              <p class="section-content">
-                New presumptive conditions added for veterans of the Gulf War
-                and post-9/11 eras starting this month.
-              </p>
-              <a href="#">
-                <div class="btn-link"><span>Read Briefing</span></div>
-              </a>
-            </article>
-            <article class="briefing-card">
-              <div class="briefing-meta">
-                <span class="briefing-date">Oct 15, 2024</span>
-                <span class="briefing-tag">Education</span>
-              </div>
-              <h3 class="section-subtitle">Post-9/11 GI Bill MHA Rates</h3>
-              <p class="section-content">
-                How the new academic year rates affect monthly housing stipends
-                for full-time students.
-              </p>
-              <a href="#">
-                <div class="btn-link"><span>Read Briefing</span></div>
-              </a>
-            </article>
-          </div>
-        </section>
-        <section class="evergreen-section">
-          <div class="evergreen-container">
-            <div class="evergreen-header">
-              <h2 class="section-title">Policy Foundations</h2>
-              <p class="section-content">
-                In-depth explainers on recurring topics, maintained and updated
-                as regulations shift.
-              </p>
-            </div>
-            <div class="evergreen-grid">
-              <div class="evergreen-card">
-                <div class="evergreen-image-box">
-                  <img
-                    alt="Military Policy"
-                    src="https://images.pexels.com/photos/7467873/pexels-photo-7467873.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
-                    class="evergreen-img"
-                  />
-                  <span class="update-stamp">Updated: Oct 2024</span>
-                </div>
-                <div class="evergreen-body">
-                  <h3 class="section-subtitle">
-                    The Military Pay Scale Explained
-                  </h3>
-                  <p class="section-content">
-                    How base pay, allowances, and tax advantages combine to form
-                    your total compensation package.
-                  </p>
-                  <a href="#">
-                    <div class="btn-outline btn-sm btn">
-                      <span>Read Explainer</span>
-                    </div>
-                  </a>
-                </div>
-              </div>
-              <div class="evergreen-card">
-                <div class="evergreen-image-box">
-                  <img
-                    alt="Healthcare Policy"
-                    src="https://images.pexels.com/photos/7467847/pexels-photo-7467847.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
-                    class="evergreen-img"
-                  />
-                  <span class="update-stamp">Updated: Sep 2024</span>
-                </div>
-                <div class="evergreen-body">
-                  <h3 class="section-subtitle">TRICARE Prime vs. Select</h3>
-                  <p class="section-content">
-                    A detailed comparison of costs, provider networks, and
-                    flexibility for active duty and retirees.
-                  </p>
-                  <a href="#">
-                    <div class="btn-outline btn-sm btn">
-                      <span>Read Explainer</span>
-                    </div>
-                  </a>
-                </div>
-              </div>
-              <div class="evergreen-card">
-                <div class="evergreen-image-box">
-                  <img
-                    alt="Family Housing"
-                    src="https://images.pexels.com/photos/7985496/pexels-photo-7985496.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
-                    class="evergreen-img"
-                  />
-                  <span class="update-stamp">Updated: Oct 2024</span>
-                </div>
-                <div class="evergreen-body">
-                  <h3 class="section-subtitle">Navigating the PCS Move</h3>
-                  <p class="section-content">
-                    Your rights during a household goods move and how to claim
-                    damage or loss through the new system.
-                  </p>
-                  <a href="#">
-                    <div class="btn-outline btn-sm btn">
-                      <span>Read Explainer</span>
-                    </div>
-                  </a>
-                </div>
-              </div>
-              <div class="evergreen-card">
-                <div class="evergreen-image-box">
-                  <img
-                    alt="Veterans Benefits"
-                    src="https://images.pexels.com/photos/7467966/pexels-photo-7467966.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
-                    class="evergreen-img"
-                  />
-                  <span class="update-stamp">Updated: Aug 2024</span>
-                </div>
-                <div class="evergreen-body">
-                  <h3 class="section-subtitle">VA Disability Rating Guide</h3>
-                  <p class="section-content">
-                    Understanding the C&amp;P exam process and how secondary
-                    conditions affect your total rating.
-                  </p>
-                  <a href="#">
-                    <div class="btn-outline btn-sm btn">
-                      <span>Read Explainer</span>
-                    </div>
-                  </a>
-                </div>
-              </div>
-              <div class="evergreen-card">
-                <div class="evergreen-image-box">
-                  <img
-                    alt="Guard Reserve"
-                    src="https://images.pexels.com/photos/7984332/pexels-photo-7984332.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
-                    class="evergreen-img"
-                  />
-                  <span class="update-stamp">Updated: July 2024</span>
-                </div>
-                <div class="evergreen-body">
-                  <h3 class="section-subtitle">Guard/Reserve Pay Status</h3>
-                  <p class="section-content">
-                    The difference between Title 10, Title 32, and State Active
-                    Duty pay and benefits.
-                  </p>
-                  <a href="#">
-                    <div class="btn-outline btn-sm btn">
-                      <span>Read Explainer</span>
-                    </div>
-                  </a>
-                </div>
-              </div>
-              <div class="evergreen-card">
-                <div class="evergreen-image-box">
-                  <img
-                    alt="Retirement"
-                    src="https://images.pexels.com/photos/7985545/pexels-photo-7985545.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=1500"
-                    class="evergreen-img"
-                  />
-                  <span class="update-stamp">Updated: Oct 2024</span>
-                </div>
-                <div class="evergreen-body">
-                  <h3 class="section-subtitle">
-                    Blended Retirement System (BRS)
-                  </h3>
-                  <p class="section-content">
-                    Maximizing your TSP match and understanding the mid-career
-                    continuation pay bonus.
-                  </p>
-                  <a href="#">
-                    <div class="btn-outline btn-sm btn">
-                      <span>Read Explainer</span>
-                    </div>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section class="mission-section">
-          <div class="mission-container">
-            <div class="mission-content">
-              <h2 class="section-title">Our Non-Partisan Mission</h2>
-              <p class="section-content">
-                The Military Brief provides status clarity without political
-                bias. We explain the "what" and "how" of policy, leaving the
-                "why" to others.
-              </p>
-            </div>
-            <div class="mission-steps">
-              <div class="mission-step">
-                <div class="step-indicator"><span>1</span></div>
-                <div class="step-content">
-                  <h3 class="section-subtitle">Policy Monitoring</h3>
-                  <p class="section-content">
-                    Our team tracks legislative filings, DoD directives, and VA
-                    regulatory changes daily.
-                  </p>
-                </div>
-              </div>
-              <div class="mission-step">
-                <div class="step-indicator"><span>2</span></div>
-                <div class="step-content">
-                  <h3 class="section-subtitle">Plain Language Distillation</h3>
-                  <p class="section-content">
-                    We strip away the "mil-speak" and legal jargon to explain
-                    how changes affect your wallet and family.
-                  </p>
-                </div>
-              </div>
-              <div class="mission-step">
-                <div class="step-indicator"><span>3</span></div>
-                <div class="step-content">
-                  <h3 class="section-subtitle">Continuous Updates</h3>
-                  <p class="section-content">
-                    When a policy moves from a proposal to a law, our explainers
-                    are updated within 24 hours.
-                  </p>
-                </div>
-              </div>
-              <div class="mission-step">
-                <div class="step-indicator"><span>4</span></div>
-                <div class="step-content">
-                  <h3 class="section-subtitle">Community Feedback</h3>
-                  <p class="section-content">
-                    We integrate questions and tips from our community to ensure
-                    our coverage meets real-world needs.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section class="stats-section">
-          <div class="stats-container">
-            <div class="stats-grid">
-              <div class="stat-item">
-                <span class="stat-value">450+</span>
-                <span class="stat-label">Active Policy Briefings</span>
-              </div>
-              <div class="stat-item">
-                <span class="stat-value">24hr</span>
-                <span class="stat-label">Max Update Lag</span>
-              </div>
-              <div class="stat-item">
-                <span class="stat-value">12k+</span>
-                <span class="stat-label">Monthly Active Users</span>
-              </div>
-              <div class="stat-item">
-                <span class="stat-value">0</span>
-                <span class="stat-label">Partisan Affiliations</span>
-              </div>
-              <div class="stat-item">
-                <span class="stat-value">15</span>
-                <span class="stat-label">Core Policy Areas</span>
-              </div>
-              <div class="stat-item">
-                <span class="stat-value">100%</span>
-                <span class="stat-label">Veteran/Family Focus</span>
-              </div>
-            </div>
-          </div>
-        </section>
-        <section class="contact-section">
-          <div class="contact-container">
-            <div class="contact-card">
-              <div class="contact-header">
-                <h2 class="section-title">Get in Touch</h2>
-                <p class="section-content">
-                  Whether you're a journalist, a partner, or have a tip about a
-                  policy shift, we want to hear from you.
-                </p>
-              </div>
-              <div class="contact-grid">
-                <div class="contact-info">
-                  <div class="contact-item">
-                    <h4 class="section-subtitle">Media Inquiries</h4>
-                    <p class="section-content">press@themilitarybrief.com</p>
-                  </div>
-                  <div class="contact-item">
-                    <h4 class="section-subtitle">Partnerships</h4>
-                    <p class="section-content">collab@themilitarybrief.com</p>
-                  </div>
-                  <div class="contact-item">
-                    <h4 class="section-subtitle">Submit a Tip</h4>
+              <div class="enrollment-process__steps">
+                <div class="step-item">
+                  <div class="step-item__number"><span>01</span></div>
+                  <div class="step-item__content">
+                    <h3 class="section-subtitle">Verify DEERS Eligibility</h3>
                     <p class="section-content">
-                      Use our secure tip line for policy alerts.
+                      Your eligibility for TRICARE is managed through the
+                      Defense Enrollment Eligibility Reporting System. Ensure
+                      your information is current.
                     </p>
                   </div>
                 </div>
-                <form
-                  action="/submit"
-                  method="POST"
-                  data-form-id="a8c14d4a-6bd2-42a4-b68a-928f38244c18"
-                  class="contact-form"
-                >
-                  <div class="form-group">
-                    <input
-                      type="text"
-                      id="thq_textinput_pCVe"
-                      name="textinput"
-                      required="true"
-                      placeholder="Your Name"
-                      data-form-field-id="thq_textinput_pCVe"
-                      class="form-input"
-                    />
+                <div class="step-item">
+                  <div class="step-item__number"><span>02</span></div>
+                  <div class="step-item__content">
+                    <h3 class="section-subtitle">Choose Your Plan</h3>
+                    <p class="section-content">
+                      Select between Prime (managed care) or Select (preferred
+                      provider) based on your location and preference for
+                      flexibility.
+                    </p>
                   </div>
-                  <div class="form-group">
-                    <input
-                      type="email"
-                      id="thq_textinput_7syL"
-                      name="textinput"
-                      required="true"
-                      placeholder="Email Address"
-                      data-form-field-id="thq_textinput_7syL"
-                      class="form-input"
-                    />
+                </div>
+                <div class="step-item">
+                  <div class="step-item__number"><span>03</span></div>
+                  <div class="step-item__content">
+                    <h3 class="section-subtitle">Enroll via BENE Online</h3>
+                    <p class="section-content">
+                      Use the Beneficiary Web Enrollment (BENE) portal to submit
+                      your application or change your plan during Open Season.
+                    </p>
                   </div>
-                  <div class="form-group">
-                    <select
-                      id="thq_select_ooKK"
-                      name="select"
-                      required="true"
-                      data-form-field-id="thq_select_ooKK"
-                      class="form-input"
+                </div>
+                <div class="step-item">
+                  <div class="step-item__number"><span>04</span></div>
+                  <div class="step-item__content">
+                    <h3 class="section-subtitle">Monitor Catastrophic Caps</h3>
+                    <p class="section-content">
+                      Understand your maximum out-of-pocket limit. Once reached,
+                      TRICARE pays 100% of covered services for the remainder of
+                      the year.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="life-scenarios">
+          <div class="life-scenarios__container">
+            <div class="life-scenarios__header">
+              <h2 class="section-title">Healthcare During Life Events</h2>
+              <p class="section-content">
+                Major life changes impact your coverage. Here is how to handle
+                common transitions.
+              </p>
+            </div>
+            <div class="life-scenarios__timeline-wrapper">
+              <div class="life-scenarios__timeline">
+                <div class="timeline-card">
+                  <div class="timeline-card__icon">
+                    <svg
+                      fill="none"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="24"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
                     >
-                      <option disabled="true" selected="true">
-                        Inquiry Type
-                      </option>
-                      <option value="correction">Correction</option>
-                      <option value="tip">Policy Tip</option>
-                      <option value="media">Media Request</option>
-                      <option value="other">General Question</option>
-                    </select>
+                      <path d="M5 12h14m-7-7l7 7l-7 7"></path>
+                    </svg>
                   </div>
-                  <div class="form-group">
-                    <textarea
-                      id="thq_textarea_3UdC"
-                      name="textarea"
-                      rows="4"
-                      required="true"
-                      minlength="10"
-                      placeholder="Your Message"
-                      data-form-field-id="thq_textarea_3UdC"
-                      class="form-input"
-                    ></textarea>
+                  <h3 class="section-subtitle">PCS Move</h3>
+                  <p class="section-content">
+                    You must transfer your enrollment to your new region.
+                    Contact your new regional contractor within 90 days.
+                  </p>
+                </div>
+                <div class="timeline-card">
+                  <div class="timeline-card__icon">
+                    <svg
+                      fill="none"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="24"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M12 7v4m2 10v-3a2 2 0 0 0-4 0v3m4-12h-4"></path>
+                      <path
+                        d="M18 11h2a2 2 0 0 1 2 2v6a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2v-9a2 2 0 0 1 2-2h2"
+                      ></path>
+                      <path
+                        d="M18 21V5a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16"
+                      ></path>
+                    </svg>
                   </div>
-                  <button
-                    id="thq_button_fWkO"
-                    name="button"
-                    type="submit"
-                    data-form-field-id="thq_button_fWkO"
-                    class="btn-lg btn-primary btn"
-                  >
-                    Send Message
-                  </button>
-                </form>
+                  <h3 class="section-subtitle">Deployment</h3>
+                  <p class="section-content">
+                    Families may have more flexibility. Active duty members
+                    remain on Prime; families can switch plans if needed.
+                  </p>
+                </div>
+                <div class="timeline-card">
+                  <div class="timeline-card__icon">
+                    <svg
+                      fill="none"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="24"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <path d="M8 2v4m8-4v4"></path>
+                      <rect x="3" y="4" rx="2" width="18" height="18"></rect>
+                      <path d="M3 10h18"></path>
+                    </svg>
+                  </div>
+                  <h3 class="section-subtitle">Retirement</h3>
+                  <p class="section-content">
+                    Transition to TRICARE Select or Prime as a retiree.
+                    Enrollment fees apply. Dental coverage shifts to FEDVIP.
+                  </p>
+                </div>
+                <div class="timeline-card">
+                  <div class="timeline-card__icon">
+                    <svg
+                      fill="none"
+                      width="24"
+                      xmlns="http://www.w3.org/2000/svg"
+                      height="24"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    >
+                      <g
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      >
+                        <circle r="10" cx="12" cy="12"></circle>
+                        <path d="M12 16v-4m0-4h.01"></path>
+                      </g>
+                    </svg>
+                  </div>
+                  <h3 class="section-subtitle">VA Transition</h3>
+                  <p class="section-content">
+                    Learn how VA healthcare and TRICARE work together. Some
+                    services may overlap while others are distinct.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
         </section>
-        <section class="cta-section">
-          <div class="cta-alert-banner">
-            <div class="cta-alert-content">
-              <div class="cta-alert-icon">
-                <svg
-                  fill="none"
-                  width="24"
-                  xmlns="http://www.w3.org/2000/svg"
-                  height="24"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  stroke-width="2"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                >
-                  <path
-                    d="M10.268 21a2 2 0 0 0 3.464 0M15 8h6m-3-3v6m2.002 3.464a9 9 0 0 0 .738.863A1 1 0 0 1 20 17H4a1 1 0 0 1-.74-1.673C4.59 13.956 6 12.499 6 8a6 6 0 0 1 8.75-5.332"
-                  ></path>
-                </svg>
-              </div>
-              <div class="cta-alert-text">
-                <h3 class="section-subtitle">Stay Informed on Policy Shifts</h3>
+        <section class="healthcare-resources">
+          <div class="healthcare-resources__container">
+            <div class="healthcare-resources__header">
+              <h2 class="section-title">Guides &amp; Checklists</h2>
+              <p class="section-content">
+                Downloadable tools and official links to help you manage your
+                healthcare status.
+              </p>
+            </div>
+            <div class="healthcare-resources__rail">
+              <div class="healthcare---tricare-resource-card">
+                <div class="resource-card__type"><span>CHECKLIST</span></div>
+                <h3 class="section-subtitle">Newborn Enrollment Guide</h3>
                 <p class="section-content">
-                  Get weekly briefings on the legislative changes that impact
-                  your service and family.
+                  A 5-step checklist for adding a child to DEERS and TRICARE
+                  coverage.
                 </p>
+                <a href="#">
+                  <div class="btn-link btn"><span>Download PDF</span></div>
+                </a>
+              </div>
+              <div class="healthcare---tricare-resource-card">
+                <div class="resource-card__type">
+                  <span>OFFICIAL LINK</span>
+                </div>
+                <h3 class="section-subtitle">Provider Search Tool</h3>
+                <p class="section-content">
+                  Find authorized network providers in your current or upcoming
+                  duty station.
+                </p>
+                <a href="#">
+                  <div class="btn-link btn"><span>Visit Site</span></div>
+                </a>
+              </div>
+              <div class="healthcare---tricare-resource-card">
+                <div class="resource-card__type"><span>EXPLAINER</span></div>
+                <h3 class="section-subtitle">Claims &amp; Appeals</h3>
+                <p class="section-content">
+                  How to dispute a denied claim or find the status of an
+                  existing medical bill.
+                </p>
+                <a href="#">
+                  <div class="btn-link btn"><span>Read More</span></div>
+                </a>
+              </div>
+              <div class="healthcare---tricare-resource-card">
+                <div class="resource-card__type"><span>FORM</span></div>
+                <h3 class="section-subtitle">Medical Records Request</h3>
+                <p class="section-content">
+                  Standard forms for requesting or transferring your military
+                  health records.
+                </p>
+                <a href="#">
+                  <div class="btn-link btn"><span>View Form</span></div>
+                </a>
+              </div>
+              <div class="healthcare---tricare-resource-card">
+                <div class="resource-card__type"><span>GUIDE</span></div>
+                <h3 class="section-subtitle">Dental &amp; Vision</h3>
+                <p class="section-content">
+                  Understanding your supplemental coverage options through
+                  FEDVIP.
+                </p>
+                <a href="#">
+                  <div class="btn-link btn"><span>Read Guide</span></div>
+                </a>
               </div>
             </div>
-            <form
-              action="/subscribe"
-              method="POST"
-              data-form-id="15359d96-07c1-4847-a910-cf6b3f533ea5"
-              class="cta-subscription-form"
-            >
-              <input
-                type="email"
-                id="thq_textinput_lzwL"
-                name="textinput"
-                required="true"
-                placeholder="Enter your email"
-                data-form-field-id="thq_textinput_lzwL"
-                class="cta-input"
-              />
-              <button
-                id="thq_button_mwot"
-                name="button"
-                type="submit"
-                data-form-field-id="thq_button_mwot"
-                class="btn btn-accent"
-              >
-                Subscribe Now
-              </button>
-            </form>
           </div>
         </section>
-        <div class="home-container2">
-          <div class="home-container3">
+        <section class="healthcare-updates">
+          <div class="healthcare-updates__container">
+            <div class="healthcare-updates__header">
+              <h2 class="section-title">Recent Policy Changes</h2>
+              <p class="section-content">
+                Stay informed about the latest alerts and status changes
+                affecting military healthcare.
+              </p>
+            </div>
+            <div class="healthcare-updates__accordion">
+              <details open="true" class="healthcare---tricare-update-item">
+                <summary class="update-item__summary">
+                  <div class="update-item__meta">
+                    <span class="update-item__date">JAN 2025</span>
+                    <span class="update-item__title">
+                      TRICARE Pharmacy Network Changes
+                    </span>
+                  </div>
+                  <svg
+                    fill="none"
+                    width="20"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="20"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="update-item__icon"
+                  >
+                    <path d="m6 9 6 6 6-6"></path>
+                  </svg>
+                </summary>
+                <div class="update-item__content">
+                  <p class="section-content">
+                    New pharmacy network adjustments have taken effect. Some
+                    retail pharmacies may no longer be in-network. Check the
+                    updated list to avoid higher co-pays for prescriptions
+                    filled at non-network locations.
+                  </p>
+                </div>
+              </details>
+              <details class="healthcare---tricare-update-item">
+                <summary class="update-item__summary">
+                  <div class="update-item__meta">
+                    <span class="update-item__date">DEC 2024</span>
+                    <span class="update-item__title">
+                      2025 Enrollment Fees Update
+                    </span>
+                  </div>
+                  <svg
+                    fill="none"
+                    width="20"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="20"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="update-item__icon"
+                  >
+                    <path d="m6 9 6 6 6-6"></path>
+                  </svg>
+                </summary>
+                <div class="update-item__content">
+                  <p class="section-content">
+                    Annual enrollment fees for TRICARE Select Group A and B
+                    retirees have been adjusted for the new calendar year.
+                    Ensure your allotments are updated to prevent coverage
+                    lapse.
+                  </p>
+                </div>
+              </details>
+              <details class="healthcare---tricare-update-item">
+                <summary class="update-item__summary">
+                  <div class="update-item__meta">
+                    <span class="update-item__date">OCT 2024</span>
+                    <span class="update-item__title">
+                      Mental Health Access Expansion
+                    </span>
+                  </div>
+                  <svg
+                    fill="none"
+                    width="20"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="20"
+                    stroke="currentColor"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    class="update-item__icon"
+                  >
+                    <path d="m6 9 6 6 6-6"></path>
+                  </svg>
+                </summary>
+                <div class="update-item__content">
+                  <p class="section-content">
+                    New pilot programs are expanding telehealth mental health
+                    services for Guard and Reserve members. No referral is
+                    required for the first eight sessions with a network
+                    provider.
+                  </p>
+                </div>
+              </details>
+            </div>
+          </div>
+        </section>
+        <section class="healthcare-contact">
+          <div class="healthcare-contact__container">
+            <div class="healthcare-contact__header">
+              <h2 class="section-title">Get in Touch</h2>
+              <p class="section-content">
+                Have questions about a briefing or need to report a policy
+                change? Our team is here to help.
+              </p>
+            </div>
+            <div class="healthcare-contact__grid">
+              <div class="healthcare---tricare-contact-col">
+                <div class="contact-col__icon">
+                  <svg
+                    fill="none"
+                    width="32"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="32"
+                    stroke="var(--color-primary)"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path>
+                    <rect x="2" y="4" rx="2" width="20" height="16"></rect>
+                  </svg>
+                </div>
+                <h3 class="section-subtitle">Briefing Clarifications</h3>
+                <p class="section-content">
+                  Need more detail on a specific healthcare policy we covered?
+                  Reach out for a clearer explanation.
+                </p>
+                <a href="mailto:clarify@militarybrief.com?subject=">
+                  <div class="btn-outline btn-sm btn">
+                    <span>Email Us</span>
+                  </div>
+                </a>
+              </div>
+              <div class="healthcare---tricare-contact-col">
+                <div class="contact-col__icon">
+                  <svg
+                    fill="none"
+                    width="32"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="32"
+                    stroke="var(--color-primary)"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M12 20h9"></path>
+                    <path
+                      d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z"
+                    ></path>
+                  </svg>
+                </div>
+                <h3 class="section-subtitle">Corrections &amp; Tips</h3>
+                <p class="section-content">
+                  Help us keep our briefings accurate. Submit corrections or
+                  policy tips directly to our editors.
+                </p>
+                <a href="mailto:tips@militarybrief.com?subject=">
+                  <div class="btn-outline btn-sm btn">
+                    <span>Submit Tip</span>
+                  </div>
+                </a>
+              </div>
+              <div class="healthcare---tricare-contact-col">
+                <div class="contact-col__icon">
+                  <svg
+                    fill="none"
+                    width="32"
+                    xmlns="http://www.w3.org/2000/svg"
+                    height="32"
+                    stroke="var(--color-primary)"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+                    <polyline points="17 8 12 3 7 8"></polyline>
+                    <line x1="12" x2="12" y1="3" y2="15"></line>
+                  </svg>
+                </div>
+                <h3 class="section-subtitle">Media &amp; Partnerships</h3>
+                <p class="section-content">
+                  For press inquiries or partnership opportunities regarding
+                  military family health advocacy.
+                </p>
+                <a href="mailto:media@militarybrief.com?subject=">
+                  <div class="btn-outline btn-sm btn"><span>Inquiry</span></div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="healthcare-tricare-container2">
+          <div class="healthcare-tricare-container3">
             <style>
-                      @keyframes slideUp {from {opacity: 0;
-              transform: translateY(30px);}
-              to {opacity: 1;
-              transform: translateY(0);}}
+              details[open] .update-item__icon {
+                transform: rotate(180deg);
+              }
             </style>
           </div>
         </div>
-        <div class="home-container4">
-          <div class="home-container5">
-            <script defer="" data-name="military-brief-logic">
+        <div class="healthcare-tricare-container4">
+          <div class="healthcare-tricare-container5">
+            <script defer="" data-name="healthcare-interactions">
               document.addEventListener('DOMContentLoaded', function() {
                 (function(){
-                  // Smooth scroll rail navigation
-                  const rail = document.getElementById("briefingRail")
-                  const prevBtn = document.getElementById("prevBriefing")
-                  const nextBtn = document.getElementById("nextBriefing")
+                  // Handle smooth horizontal scroll for the life scenarios timeline
+                  const timelineWrapper = document.querySelector(".life-scenarios__timeline-wrapper")
+                  if (timelineWrapper) {
+                    let isDown = false
+                    let startX
+                    let scrollLeft
 
-                  if (rail && prevBtn && nextBtn) {
-                    const scrollAmount = 370 // card width + gap
-
-                    nextBtn.addEventListener("click", () => {
-                      rail.scrollBy({ left: scrollAmount, behavior: "smooth" })
+                    timelineWrapper.addEventListener("mousedown", (e) => {
+                      isDown = true
+                      timelineWrapper.classList.add("active")
+                      startX = e.pageX - timelineWrapper.offsetLeft
+                      scrollLeft = timelineWrapper.scrollLeft
                     })
-
-                    prevBtn.addEventListener("click", () => {
-                      rail.scrollBy({ left: -scrollAmount, behavior: "smooth" })
+                    timelineWrapper.addEventListener("mouseleave", () => {
+                      isDown = false
+                    })
+                    timelineWrapper.addEventListener("mouseup", () => {
+                      isDown = false
+                    })
+                    timelineWrapper.addEventListener("mousemove", (e) => {
+                      if (!isDown) return
+                      e.preventDefault()
+                      const x = e.pageX - timelineWrapper.offsetLeft
+                      const walk = (x - startX) * 2
+                      timelineWrapper.scrollLeft = scrollLeft - walk
                     })
                   }
 
-                  // Simple form feedback
-                  const contactForm = document.querySelector(".contact-form")
-                  if (contactForm) {
-                    contactForm.addEventListener("submit", (e) => {
-                      // Let native validation handle the check
-                      if (contactForm.checkValidity()) {
-                        // Logic for success state would go here in a real app
-                        // For this demo, we let the native action proceed or show a log
-                        console.log("Form submitted successfully")
+                  // Simple scroll animation for step items
+                  const observerOptions = {
+                    threshold: 0.1,
+                  }
+
+                  const observer = new IntersectionObserver((entries) => {
+                    entries.forEach((entry) => {
+                      if (entry.isIntersecting) {
+                        entry.target.style.opacity = "1"
+                        entry.target.style.transform = "translateY(0)"
                       }
                     })
-                  }
+                  }, observerOptions)
 
-                  // Parallax effect for hero (subtle)
-                  window.addEventListener("scroll", () => {
-                    const scroll = window.pageYOffset
-                    const heroVideo = document.querySelector(".hero-video")
-                    if (heroVideo) {
-                      heroVideo.style.transform = `translateY(${scroll * 0.3}px)`
-                    }
+                  document.querySelectorAll(".step-item").forEach((item) => {
+                    item.style.opacity = "0"
+                    item.style.transform = "translateY(20px)"
+                    item.style.transition = "all 0.6s ease-out"
+                    observer.observe(item)
                   })
                 })()
               });
@@ -1360,7 +1215,10 @@
           </div>
         </footer-wrapper>
       </div>
-      <link rel="canonical" href="https://www.themilitarybrief.com/" />
+      <link
+        rel="canonical"
+        href="https://www.themilitarybrief.com/healthcare-tricare"
+      />
     </div>
   </body>
 </html>

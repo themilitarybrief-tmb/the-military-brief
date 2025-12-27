@@ -1,0 +1,144 @@
+.navigation-wrapper {
+  display: contents;
+}
+ 
+.navigation-container1 {
+  display: contents;
+}
+ 
+.navigation-container2 {
+  display: none;
+}
+ 
+.navigation-container3 {
+  display: contents;
+}
+ 
+.navigation-container4 {
+  display: none;
+}
+ 
+.navigation-container5 {
+  display: contents;
+}
+
+.footer-wrapper {
+  display: contents;
+}
+ 
+.footer-container1 {
+  display: contents;
+}
+ 
+.footer-container2 {
+  display: none;
+}
+ 
+.footer-container3 {
+  display: contents;
+}
+
+.va-benefits-retirement-container1 {
+  width: 100%;
+  display: block;
+  min-height: 100vh;
+}
+ 
+.va-benefits-retirement-thq-section-content-elm10 {
+  font-weight: var(--font-weight-heading);
+}
+ 
+.va-benefits-retirement-thq-section-content-elm12 {
+  font-weight: var(--font-weight-heading);
+}
+ 
+.va-benefits-retirement-thq-section-content-elm14 {
+  font-weight: var(--font-weight-heading);
+}
+ 
+.va-benefits-retirement-thq-section-content-elm19 {
+  font-weight: var(--font-weight-heading);
+}
+ 
+.va-benefits-retirement-thq-section-content-elm21 {
+  font-weight: var(--font-weight-heading);
+}
+ 
+.va-benefits-retirement-thq-section-content-elm23 {
+  font-weight: var(--font-weight-heading);
+}
+ 
+.va-benefits-retirement-thq-section-content-elm25 {
+  font-weight: var(--font-weight-heading);
+}
+ 
+.va-benefits-retirement-thq-section-content-elm27 {
+  font-weight: var(--font-weight-heading);
+}
+ 
+.va-benefits-retirement-thq-section-content-elm29 {
+  font-weight: var(--font-weight-heading);
+}
+ 
+.va-benefits-retirement-thq-section-content-elm31 {
+  font-weight: var(--font-weight-heading);
+}
+ 
+.va-benefits-retirement-thq-section-content-elm33 {
+  font-weight: var(--font-weight-heading);
+}
+ 
+.va-benefits-retirement-thq-section-content-elm35 {
+  font-weight: var(--font-weight-heading);
+}
+ 
+.va-benefits-retirement-thq-section-content-elm37 {
+  font-weight: var(--font-weight-heading);
+}
+ 
+.va-benefits-retirement-thq-section-content-elm39 {
+  font-weight: var(--font-weight-heading);
+}
+ 
+.va-benefits-retirement-thq-section-content-elm41 {
+  font-weight: var(--font-weight-heading);
+}
+ 
+.va-benefits-retirement-thq-btn-elm3 {
+  margin-top: var(--spacing-md);
+}
+ 
+.va-benefits-retirement-thq-section-content-elm44 {
+  font-weight: var(--font-weight-heading);
+}
+ 
+.va-benefits-retirement-thq-section-content-elm45 {
+  opacity: 0.7;
+  font-size: var(--font-size-xs);
+}
+ 
+.va-benefits-retirement-thq-section-content-elm47 {
+  font-weight: var(--font-weight-heading);
+}
+ 
+.va-benefits-retirement-thq-section-content-elm48 {
+  opacity: 0.7;
+  font-size: var(--font-size-xs);
+}
+ 
+.va-benefits-retirement-thq-section-content-elm50 {
+  font-weight: var(--font-weight-heading);
+}
+ 
+.va-benefits-retirement-thq-section-content-elm51 {
+  opacity: 0.7;
+  font-size: var(--font-size-xs);
+}
+ 
+.va-benefits-retirement-container2 {
+  display: none;
+}
+ 
+.va-benefits-retirement-container3 {
+  display: contents;
+}
