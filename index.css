@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>The Military Brief</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="The Military Brief" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <!-- Minimal reset (no TeleportHQ junk) -->
+    <style>
+      * { box-sizing: border-box; }
+      body { margin: 0; }
+      ul, li { margin: 0; padding: 0; }
+    </style>
+
+    <!-- PRIMARY SITE STYLES (inline so nothing can override them) -->
+    <style>
+      :root {
+        --bg: #ffffff;
+        --text: #1f2937;
+        --muted: #4b5563;
+        --line: #e5e7eb;
+      }
+
+      body {
+        font-family: system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        line-height: 1.6;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+
+      a:hover {
+        text-decoration: underline;
+        text-underline-offset: 3px;
+      }
+
+      .wrap {
+        max-width: 980px;
+        margin: 0 auto;
+        padding: 0 20px;
+      }
+
+      /* HEADER */
+      header {
+        position: sticky;
+        top: 0;
+        background: rgba(255,255,255,0.95);
+        border-bottom: 1px solid var(--line);
+        z-index: 100;
+      }
+
+      header .nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 14px 0;
+      }
+
+      .brand {
+        font-weight: 700;
+        font-size: 18px;
+      }
+
+      header nav ul {
+        list-style: none;
+        display: flex;
+        gap: 14px;
+        align-items: center;
+      }
+
+      header nav li {
+        list-style: none;
+      }
+
+      /* HERO */
+      .hero {
+        padding: 40px 0;
+        border-bottom: 1px solid var(--line);
+      }
+
+      .kicker {
+        font-size: 14px;
+        color: var(--muted);
+        text-transform: uppercase;
+        letter-spacing: 0.08em;
+        margin-bottom: 8px;
+      }
+
+      h1 {
+        font-size: clamp(28px, 4vw, 44px);
+        line-height: 1.15;
+        margin: 0 0 14px;
+      }
+
+      .lede {
+        font-size: 18px;
+        color: var(--muted);
+        max-width: 70ch;
+      }
+
+      .ctaRow {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        margin-top: 16px;
+      }
+
+      .btn {
+        border: 1px solid var(--text);
+        padding: 10px 12px;
+        border-radius: 10px;
+        font-weight: 600;
+        font-size: 14px;
+        display: inline-block;
+      }
+
+      .btn.primary {
+        background: var(--text);
+        color: #fff;
+      }
+
+      /* SECTIONS */
+      section {
+        padding: 36px 0;
+        border-bottom: 1px solid var(--line);
+      }
+
+      h2 {
+        margin-top: 0;
+      }
+
+      .sub {
+        color: var(--muted);
+        max-width: 80ch;
+      }
+
+      .list {
+        padding-left: 18px;
+        color: var(--muted);
+      }
+
+      /* GRID / CARDS */
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        gap: 14px;
+      }
+
+      .card {
+        grid-column: span 6;
+        border: 1px solid var(--line);
+        border-radius: 14px;
+        padding: 16px;
+      }
+
+      @media (max-width: 720px) {
+        .card { grid-column: span 12; }
+      }
+
+      /* FOOTER */
+      footer {
+        padding: 30px 0;
+        font-size: 13px;
+        color: var(--muted);
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <div class="wrap nav">
+        <div class="brand">The Military Brief</div>
+        <nav aria-label="Primary">
+          <ul>
+            <li><a href="#start">Start Here</a></li>
+            <li><a href="#explainers">Explainers</a></li>
+            <li><a href="#episodes">Episodes</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="home" class="wrap">
+      <section class="hero">
+        <p class="kicker">Calm. Clear. Non-partisan.</p>
+        <h1>Military policy, pay, benefits, and decisions—explained in plain language.</h1>
+        <p class="lede">
+          The Military Brief translates what happened, why it matters, and how it affects service members,
+          veterans, Guard and Reserve, and military families.
+        </p>
+        <div class="ctaRow">
+          <a class="btn primary" href="#episodes">Watch the latest brief</a>
+          <a class="btn" href="#explainers">Browse explainers</a>
+          <a class="btn" href="#start">How to use this site</a>
+        </div>
+      </section>
+
+      <section id="start">
+        <h2>Start Here</h2>
+        <p class="sub">
+          If you’re new: watch the latest brief, then use the Explainers section to get the baseline.
+        </p>
+        <ul class="list">
+          <li>Watch one episode to understand what changed.</li>
+          <li>Read the relevant explainer to understand your baseline rules.</li>
+          <li>Use the archive to track recurring issues over time.</li>
+        </ul>
+      </section>
+
+      <section id="explainers">
+        <h2>Explainers</h2>
+        <p class="sub">Evergreen references designed to be updated as policy changes.</p>
+        <div class="grid">
+          <div class="card"><h3>Pay & Allowances</h3><p>BAH, BAS, bonuses, special pays, and triggers.</p></div>
+          <div class="card"><h3>Healthcare & TRICARE</h3><p>Eligibility, costs, and changes.</p></div>
+          <div class="card"><h3>Guard & Reserve</h3><p>Orders, mobilization, and benefits.</p></div>
+          <div class="card"><h3>PCS & Housing</h3><p>Moves, entitlements, and delays.</p></div>
+          <div class="card"><h3>VA Benefits</h3><p>Claims, timelines, and rule changes.</p></div>
+          <div class="card"><h3>Retirement & Transition</h3><p>DoD retirement and transition issues.</p></div>
+        </div>
+      </section>
+
+      <section id="episodes">
+        <h2>Episodes</h2>
+        <p class="sub">Searchable, citable briefings with status clarity.</p>
+        <div class="card">
+          <h3>Episode Title Placeholder</h3>
+          <p><strong>Status:</strong> Proposed / Passed / Effective</p>
+          <p>Short factual summary of what happened.</p>
+        </div>
+      </section>
+
+      <section id="about">
+        <h2>About</h2>
+        <p class="sub">
+          The Military Brief exists to provide clear, non-partisan explanations of military-related policy
+          and decisions that affect real lives.
+        </p>
+        <ul class="list">
+          <li>Status clarity over speculation</li>
+          <li>Impact-first analysis</li>
+          <li>No partisan framing</li>
+        </ul>
+      </section>
+
+      <section id="contact">
+        <h2>Contact</h2>
+        <p class="sub">Media, corrections, partnerships, or tips.</p>
+        <form>
+          <input type="text" placeholder="Name" />
+          <input type="email" placeholder="Email" required />
+          <input type="text" placeholder="Category" />
+          <textarea placeholder="Message" required></textarea>
+          <button class="btn primary" type="submit">Send</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <div class="wrap">
+        © The Military Brief. Informational analysis only.
+      </div>
+    </footer>
+  </body>
+</html>
